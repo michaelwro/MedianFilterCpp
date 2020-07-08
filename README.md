@@ -25,7 +25,7 @@ while (recording data) {
 
 ## HOW TO COMPILE
 
-For your convenience, a makefile is included to compile to example code. To compile and run the program using the makefile, run the command:
+For your convenience, a makefile is included to compile the example code. To compile and run the program using the makefile, run the command:
 
 ```
 $ make run
