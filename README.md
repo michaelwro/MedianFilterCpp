@@ -14,11 +14,11 @@ The median filter class and functions are within `MedianFilter.cpp` and `MedianF
 To initialize the median filter, a MedianFilter class must be created, and a window length must be specified. Then, the 'Update' attribute can be called to add a new noisy data point and return the filtered value.
 
 ```cpp
-MedianFilter MedianFilt(windowSize);
+MedianFilter MedianFilt((int) windowSize);
 
 while (recording data) {
     ...
-    smoothedReading = MedianFilt.Update(reading);
+    float smoothedReading = MedianFilt.Update((float) reading);
     ...
 }
 ```

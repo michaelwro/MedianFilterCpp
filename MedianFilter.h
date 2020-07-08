@@ -53,7 +53,4 @@ class MedianFilter
 };
 
 
-
-
-
 #endif  // MEDIANFILT_H
